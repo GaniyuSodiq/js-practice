@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+
+.shoe-box{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+#error{
+    color: red;
+}
