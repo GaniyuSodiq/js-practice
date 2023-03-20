@@ -28,10 +28,20 @@
 //     sumEl.textContent += multiplication
 // }
 
-let age = 11
+// let age = 11
 
-if (age < 21) {
-    console.log("You cannot enter the club!")
+// if (age < 21) {
+//     console.log("You cannot enter the club!")
+// } else {
+//     console.log("Welcome!")
+// }
+
+let age = 122
+
+if (age < 100) {
+    console.log("You are not eligible")
+} else if (age === 100) {
+    console.log("Here is your Birthday card from the King")
 } else {
-    console.log("Welcome!")
+    console.log("Not Eligible, you have already gotten one")
 }
