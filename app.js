@@ -36,12 +36,29 @@
 //     console.log("Welcome!")
 // }
 
-let age = 122
+// let age = 122
 
-if (age < 100) {
-    console.log("You are not eligible")
-} else if (age === 100) {
-    console.log("Here is your Birthday card from the King")
-} else {
-    console.log("Not Eligible, you have already gotten one")
-}
+// if (age < 100) {
+//     console.log("You are not eligible")
+// } else if (age === 100) {
+//     console.log("Here is your Birthday card from the King")
+// } else {
+//     console.log("Not Eligible, you have already gotten one")
+// }
+
+
+let featuredPosts = [
+    "checkout my netflix clone", 
+    "Here is the code for my projects",
+    "I've just relunched my portfolio"
+]
+
+let experience = [
+    "CEO of Scrimba",
+    "Frontend developer at Xeneta",
+    "People counter man at hyst"
+]
+
+console.log(experience[1])
+console.log(experience[2])
+console.log(experience[0])
