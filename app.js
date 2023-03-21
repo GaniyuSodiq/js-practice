@@ -99,6 +99,10 @@
 
 // COUNT IN JAVASCRIPT USING FOR LOOP
 
-for (let count = 1; count < 11; count += 1){
-    console.log(count)
+// for (let count = 10; count < 21; count += 1){
+//     console.log(count)
+// }
+
+for (let i = 10; i < 101; i += 10){
+    console.log(i)
 }
