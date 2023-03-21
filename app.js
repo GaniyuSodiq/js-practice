@@ -75,8 +75,24 @@
 
 // ADDING ITEM TO THE ARRAY
 
-let cards = [7, 6]
+// let cards = [7, 6]
 
-cards.push(4)
+// cards.push(4)
 
-console.log(cards)
+// console.log(cards)
+
+let messages = [
+    "hey, how is it going?",
+    "i'm great, how about you!",
+    "All good. Been working on my portfolio lately"
+]
+
+let newMessage = "Same here."
+
+messages.push(newMessage)
+
+console.log(messages)
+
+messages.pop()
+
+console.log(messages)
