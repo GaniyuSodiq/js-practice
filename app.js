@@ -47,18 +47,36 @@
 // }
 
 
-let featuredPosts = [
-    "checkout my netflix clone", 
-    "Here is the code for my projects",
-    "I've just relunched my portfolio"
-]
+// let featuredPosts = [
+//     "checkout my netflix clone", 
+//     "Here is the code for my projects",
+//     "I've just relunched my portfolio"
+// ]
 
-let experience = [
-    "CEO of Scrimba",
-    "Frontend developer at Xeneta",
-    "People counter man at hyst"
-]
+// console.log(featuredPosts.length)
 
-console.log(experience[1])
-console.log(experience[2])
-console.log(experience[0])
+// let experience = [
+//     "CEO of Scrimba",
+//     "Frontend developer at Xeneta",
+//     "People counter man at hyst"
+// ]
+
+// console.log(experience[1])
+// console.log(experience[2])
+// console.log(experience[0])
+
+// let mySelf = [
+//     "Ganiyu Sodiq",
+//     31,
+//     true
+// ]
+
+// console.log(mySelf[1])
+
+// ADDING ITEM TO THE ARRAY
+
+let cards = [7, 6]
+
+cards.push(4)
+
+console.log(cards)
