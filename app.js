@@ -81,18 +81,24 @@
 
 // console.log(cards)
 
-let messages = [
-    "hey, how is it going?",
-    "i'm great, how about you!",
-    "All good. Been working on my portfolio lately"
-]
+// let messages = [
+//     "hey, how is it going?",
+//     "i'm great, how about you!",
+//     "All good. Been working on my portfolio lately"
+// ]
 
-let newMessage = "Same here."
+// let newMessage = "Same here."
 
-messages.push(newMessage)
+// messages.push(newMessage)
 
-console.log(messages)
+// console.log(messages)
 
-messages.pop()
+// messages.pop()
 
-console.log(messages)
+// console.log(messages)
+
+// COUNT IN JAVASCRIPT USING FOR LOOP
+
+for (let count = 1; count < 11; count += 1){
+    console.log(count)
+}
