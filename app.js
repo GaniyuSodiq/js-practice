@@ -161,5 +161,8 @@ function getFastestRaceTime() {
 // let randomNumber = Math.random() * 6
 // console.log(randomNumber)
 
-let florredNumber = Math.floor(3.55621)
-console.log(florredNumber)
+// let florredNumber = Math.floor(3.55621)
+// console.log(florredNumber)
+
+let randomNumber = Math.floor( Math.random() * 6 ) + 1
+console.log(randomNumber)
