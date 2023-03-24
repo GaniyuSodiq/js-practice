@@ -125,10 +125,36 @@
 //     console.log("number " + cards[i])
 // }
 
-let sentence = ["Hello", "my", "name", "is", "Sodiq"]
+// let sentence = ["Hello", "my", "name", "is", "Sodiq"]
 
-let greetingEl = document.getElementById("greeting-el")
+// let greetingEl = document.getElementById("greeting-el")
 
-for (let i = 0; i < sentence.length; i++){
-    greetingEl.textContent += sentence[i] + " "
+// for (let i = 0; i < sentence.length; i++){
+//     greetingEl.textContent += sentence[i] + " "
+// }
+
+let player1time = 102
+let player2time = 107
+
+function getFastestRaceTime() {
+    if (player1time < player2time){
+        return player1time
+    } else if (player2time < player1time){
+        return player2time
+    } else{
+        return player1time
+    }
 }
+
+// let fastestRaceTime = getFastestRaceTime()
+
+// console.log(fastestRaceTime)
+
+function getTotalRaceTime() {
+    let totalTace = player1time + player2time
+    return totalTace
+}
+
+let totalTaceTime = getTotalRaceTime()
+
+console.log(totalTaceTime)
