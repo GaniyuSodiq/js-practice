@@ -150,10 +150,13 @@ function getFastestRaceTime() {
 
 // console.log(fastestRaceTime)
 
-function getTotalRaceTime() {
-    return player1time + player2time
-}
+// function getTotalRaceTime() {
+//     return player1time + player2time
+// }
 
-let totalTaceTime = getTotalRaceTime()
+// let totalTaceTime = getTotalRaceTime()
 
-console.log(totalTaceTime)
+// console.log(totalTaceTime)
+
+let randomNumber = Math.random()
+console.log(randomNumber)
