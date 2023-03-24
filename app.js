@@ -164,5 +164,13 @@ function getFastestRaceTime() {
 // let florredNumber = Math.floor(3.55621)
 // console.log(florredNumber)
 
-let randomNumber = Math.floor( Math.random() * 6 ) + 1
-console.log(randomNumber)
+// let randomNumber = Math.floor( Math.random() * 6 ) + 1
+// console.log(randomNumber)
+
+function rollDice() {
+    return Math.floor(Math.random() * 6) + 1
+}
+
+console.log(rollDice())
+console.log(rollDice())
+console.log(rollDice())
