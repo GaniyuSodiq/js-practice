@@ -103,6 +103,24 @@
 //     console.log(count)
 // }
 
-for (let i = 10; i < 101; i += 10){
-    console.log(i)
+// for (let i = 10; i < 101; i += 10){
+//     console.log(i)
+// }
+
+let messages = [
+    "hey, how is it going?",
+    "i'm great, how about you!",
+    "All good. Been working on my portfolio lately"
+]
+
+messages.push("Same Here")
+
+for (let i = 0; i < messages.length; i++){
+    console.log(messages[i])
+}
+
+let cards = [7, 3, 9]
+
+for (let i = 0; i < cards.length; i ++) {
+    console.log("number " + cards[i])
 }
