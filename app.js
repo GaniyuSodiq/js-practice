@@ -158,5 +158,8 @@ function getFastestRaceTime() {
 
 // console.log(totalTaceTime)
 
-let randomNumber = Math.random() * 6
-console.log(randomNumber)
+// let randomNumber = Math.random() * 6
+// console.log(randomNumber)
+
+let florredNumber = Math.floor(3.55621)
+console.log(florredNumber)
