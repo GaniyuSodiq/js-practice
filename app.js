@@ -151,8 +151,7 @@ function getFastestRaceTime() {
 // console.log(fastestRaceTime)
 
 function getTotalRaceTime() {
-    let totalTace = player1time + player2time
-    return totalTace
+    return player1time + player2time
 }
 
 let totalTaceTime = getTotalRaceTime()
